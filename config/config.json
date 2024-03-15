@@ -16,11 +16,11 @@
   },
   "production": {
     "username": "root",
-    "password": "kgmsgJOqvUatOxYaWmWgrQBOJLiBQhIr",
+    "password": "VGNnltNafKcBycscnUiVElAFzoJjYbUq",
     "database": "railway",
-    "port": "28308",
-    "host": "viaduct.proxy.rlwy.net",
-    "url": "mysql://root:kgmsgJOqvUatOxYaWmWgrQBOJLiBQhIr@viaduct.proxy.rlwy.net:28308/railway",
+    "port": "33259",
+    "host": "monorail.proxy.rlwy.net",
+    "url": "mysql://root:VGNnltNafKcBycscnUiVElAFzoJjYbUq@monorail.proxy.rlwy.net:33259/railway",
     "dialect": "mysql"
   }
 }
