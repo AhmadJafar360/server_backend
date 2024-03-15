@@ -1,6 +1,5 @@
 "use strict";
 const { Model } = require("sequelize");
-const db = require("../config/database");
 module.exports = (sequelize, DataTypes) => {
   class Users extends Model {
     /**
@@ -12,32 +11,28 @@ module.exports = (sequelize, DataTypes) => {
       // define association here
     }
   }
-  const Users = db.define("users", {
-    id: {
-      type: sequelize.INTEGER,
-      primaryKey: true,
-      autoIncrement: true,
-      allowNull: false,
+  Users.init(
+    {
+      id: {
+        type: sequelize.INTEGER,
+        primaryKey: true,
+        autoIncrement: true,
+        allowNull: false,
+      },
+      firstname: DataTypes.STRING,
+      lastname: DataTypes.STRING,
+      gender: DataTypes.STRING,
+      email: DataTypes.STRING,
+      phone: DataTypes.STRING,
+      birthdate: DataTypes.DATE,
+      password: DataTypes.STRING,
+      access_token: DataTypes.TEXT,
+      refresh_token: DataTypes.TEXT,
     },
-    firstname: DataTypes.STRING,
-    lastname: DataTypes.STRING,
-    gender: DataTypes.STRING,
-    email: DataTypes.STRING,
-    phone: DataTypes.STRING,
-    birthdate: DataTypes.DATE,
-    password: DataTypes.STRING,
-    access_token: DataTypes.TEXT,
-    refresh_token: DataTypes.TEXT,
-  });
+    {
+      sequelize,
+      modelName: "users",
+    }
+  );
   return Users;
 };
-
-// firstname: DataTypes.STRING,
-// lastname: DataTypes.STRING,
-// gender: DataTypes.STRING,
-// email: DataTypes.STRING,
-// phone: DataTypes.STRING,
-// birthdate: DataTypes.DATE,
-// password: DataTypes.STRING,
-// access_token: DataTypes.TEXT,
-// refresh_token: DataTypes.TEXT,
