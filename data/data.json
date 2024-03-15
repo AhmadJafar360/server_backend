@@ -1,0 +1,187 @@
+{
+  "intens": [
+    {
+      "tags": "error",
+      "patterns": [""],
+      "responses": ["Mohon maaf, saya hanya bisa menjawab tentang pendaftaran E-KTP."]
+    },
+    {
+      "tags": "salam",
+      "patterns": ["hai", "halo", "hallo", "salam", "hola", "permisi", "mau tanya", "min"],
+      "responses": ["Halo! senang bertemu denganmu, ada yang bisa saya bantu?"]
+    },
+    {
+      "tags": "salam2",
+      "patterns": ["Assalamu'alaikum", "Assalamualaikum", "Assalamu'alaikum Warahmatullahi", "Assalamualaikum Warahmatullahi Wabarakatuh"],
+      "responses": ["Wa'alaikumsalam Warahmatullahi Wabarakatuh"]
+    },
+    {
+      "tags": "salam3",
+      "patterns": ["Selamat pagi", "pagi"],
+      "responses": ["Selamat pagi"]
+    },
+    {
+      "tags": "salam4",
+      "patterns": ["Selamat siang", "siang"],
+      "responses": ["Selamat siang"]
+    },
+    {
+      "tags": "salam5",
+      "patterns": ["Selamat malam", "malam"],
+      "responses": ["Selamat malam"]
+    },
+    {
+      "tags": "kabar",
+      "patterns": ["apa kabar", "gimana kabarmu", "pye kabarmu"],
+      "responses": "Alhamdulillah kabar saya baik"
+    },
+    {
+      "tags": "terimakasih",
+      "patterns": ["Terima kasih", "terimakasih", "makasih", "trims", "oke", "sangat membantu"],
+      "responses": ["terimakasih kembali"]
+    },
+    {
+      "tags": "pengantar",
+      "patterns": "surat pengantar",
+      "responses": [
+        "surat resmi yang digunakan untuk mengajukan permohonan pembuatan atau perpanjangan Kartu Tanda Penduduk (KTP) kepada instansi yang berwenang, seperti Dinas Kependudukan dan Catatan Sipil di suatu daerah. Surat ini mengandung informasi tentang identitas pemohon, alasan permohonan, dan data-data penting yang terkait dengan KTP yang dimohonkan atau diperpanjang, surat pengantar KTP akan mencantumkan informasi seperti nama lengkap pemohon, tempat dan tanggal lahir, alamat, nomor Kartu Keluarga (KK), serta data-data yang tercantum dalam KTP yang lama (jika ada). Surat pengantar ini juga bisa mencantumkan alasan permohonan, seperti pembuatan KTP baru karena sudah mencapai usia yang memenuhi syarat atau perpanjangan KTP karena masa berlakunya akan habis."
+      ]
+    },
+    {
+      "tags": "pendaftaran",
+      "patterns": ["Daftar", "registrasi", "mendaftar"],
+      "responses": "Saya akan membantu anda melakukan proses pendaftaran E-KTP. Silahkan daftar di link berikut: https://forms.gle/xofa3pbxw7NY1RwY8"
+    },
+    {
+      "tags": "Biaya",
+      "patterns": ["Harga", "biaya", "tarif"],
+      "responses": "Berdasarkan UU No 24 Tahun 2013 tentang Perubahan Atas Undang-Undang Nomor 23 tahun 2006 tentang Administrasi Kependudukan pasal 79A menyatakan bahwa pengurusan dan penerbitan Dokumen Kependudukan tidak dipungut biaya."
+    },
+    {
+      "tags": "Durasi",
+      "patterns": ["berapa lama", "berapa hari"],
+      "responses": "Durasi proses pembuatan E-KTP tergantung pada lokasi dan tingkat kepadatan penduduk, Bagi warga negara yang sudah memenuhi syarat, maka pembuatan KTP dilakukan selambat-lambatnya 14 hari"
+    },
+    {
+      "tags": "Pembuatan",
+      "patterns": ["Cetak"],
+      "responses": "Proses pembuatan KTP baru biasanya memakan waktu sekitar tujuh hari kerja. Setelah selesai, kamu dapat mengambil KTP baru dan tidak diperkenankan diwakilkan oleh orang lain."
+    },
+    {
+      "tags": "Prosedur",
+      "patterns": ["tata cara", "prosedur", "langkah-langkah"],
+      "responses": "Prosedur untuk melakukan pendaftaran E-KTP meliputi pengisian formulir pendaftaran, verifikasi dokumen, pengambilan sidik jari dan foto."
+    },
+    {
+      "tags": "Waktu",
+      "patterns": ["kapan", "jadwal"],
+      "responses": "Pelayanan operasional dibuka mulai jam 08:00 WIB - 15:00 WIB"
+    },
+    {
+      "tags": "Pengertian",
+      "patterns": ["apa itu", "jelaskan"],
+      "responses": "Kartu Tanda Penduduk (KTP) diproses secara komputerisasi dan dilengkapi cip yang berfungsi untuk menyimpan biodata, sidik jari dan tanda tangan."
+    },
+    {
+      "tags": "Persyaratan",
+      "patterns": ["syarat"],
+      "responses": ["Persyaratan yang digunakan untuk pendaftaran E-KTP meliputi:", "<ul>", "  <li>Telah berusia 17 tahun,</li>", "  <li>Fotokopi Kartu Keluarga (KK),</li>", "  <li>Akta Kelahiran.</li>", "</ul>"]
+    },
+
+    {
+      "tags": "Media",
+      "patterns": ["Sosmed", "Social Media", "Sosial media", "instagram", "youtube", "facebook"],
+      "responses": ["https://www.instagram.com/posyandu.tracal/, https://www.instagram.com/pena_tracal/, https://www.youtube.com/@penatracal_3444"]
+    },
+    {
+      "tags": "kesepakatan",
+      "patterns": ["janji", "menghubungi"],
+      "responses": "Tergantung pada kebijakan setempat. Beberapa daerah mungkin memerlukan janji, sementara yang lain mungkin melayani tanpa janji."
+    },
+    {
+      "tags": "tempat",
+      "patterns": ["lokasi", "tempat", "alamat", "domisili", "letak"],
+      "responses": "Lokasi balai desa Tracal 'Jl. Sultan Hasanuddin No.44, Tracal, Kec. Karang Geneng, Kabupaten Lamongan, Jawa Timur 62254'"
+    },
+    {
+      "tags": "mengganti",
+      "patterns": ["ganti", "tempat tinggal"],
+      "responses": "Anda dapat mengganti alamat tinggal di E-KTP dengan memperbarui informasi seperti melakukan perubahan alamat, surat pindah, perbarui Kartu Keluarga (KK), perbarui Kartu Tanda Penduduk (KTP) atau E-KTP, Pendaftaran E-KTP Baru (jika belum memiliki), Informasikan kepada Pihak Terkait:"
+    },
+    {
+      "tags": "verifikasi",
+      "patterns": ["verifikasi", "konfirmasi"],
+      "responses": "Dokumen yang Anda bawa akan diverifikasi oleh petugas Disdukcapil untuk memastikan keakuratannya."
+    },
+    {
+      "tags": "kesalahan",
+      "patterns": ["kesalahan pada e-ktp"],
+      "responses": "Datangi Dinas Kependudukan dan Pencatatan Sipil (Dukcapil) setempat. Cari loket untuk mengurus KTP dan KK. Lalu, jelaskan sedetail mungkin tentang ganti data e-KTP yang salah atau update data e-KTP. Serahkan semua dokumen perubahan data e-KTP kepada petugas Dukcapil"
+    },
+    {
+      "tags": "cek",
+      "patterns": ["cek status"],
+      "responses": "kirim SMS dengan format: Cek#KTP#NIK. Lalu kirim ke nomor Disdukcapil Kemendagri [0815-3636-9999]."
+    },
+    {
+      "tags": "send",
+      "patterns": ["dikirimkan"],
+      "responses": "Tergantung wilayah, karena ada beberapa wilayah yang sudah menerapkan, jika sudah selesai dicetak KTP-El diambil dikantor Dukcapil. Pemohon dapat mengambil KTP-EL yang sudah diterbikan di Dinas Kependudukan dan Pencatatan Sipil"
+    },
+    {
+      "tags": "pendaftaran2",
+      "patterns": ["daftar luar kota"],
+      "responses": "proses pendaftaran E-KTP (Elektronik Kartu Tanda Penduduk) dilakukan di kantor Dinas Kependudukan dan Pencatatan Sipil (Disdukcapil) yang wilayahnya sesuai dengan domisili pemohon. Namun, beberapa daerah atau kota memiliki kebijakan yang berbeda."
+    },
+    {
+      "tags": "KK",
+      "patterns": ["belum memiliki Kartu Keluarga (KK)"],
+      "responses": "Pendaftaran E-KTP (Elektronik Kartu Tanda Penduduk), umumnya diperlukan Kartu Keluarga (KK) sebagai salah satu persyaratan, Anda perlu mengurus pembuatan KK terlebih dahulu sebelum dapat mendaftar E-KTP"
+    },
+    {
+      "tags": "hilang",
+      "patterns": ["kehilangan"],
+      "responses": "Datang ke kantor polisi terdekat dan membuat laporan kehilangan KTP serta meminta surat keterangan kehilangan"
+    },
+    {
+      "tags": "response_22",
+      "patterns": [],
+      "responses": "proses pendaftaran selesai, Anda akan diberikan bukti pendaftaran yang bisa Anda gunakan untuk mengambil E-KTP nantinya"
+    },
+    {
+      "tags": "anak",
+      "patterns": ["informasi pendaftaran anak di bawah umur"],
+      "responses": "Jika Anda memiliki anak di bawah usia 17 tahun dan berencana untuk mendaftarkan E-KTP untuknya, sebaiknya Anda menghubungi kantor Dinas Kependudukan dan Pencatatan Sipil (Disdukcapil) setempat untuk mendapatkan informasi yang lebih akurat tentang persyaratan dan prosedur yang berlaku di wilayah Anda. Nomor telepon dan alamat kantor biasanya dapat ditemukan di situs web pemerintah setempat atau melalui pencarian online."
+    },
+    {
+      "tags": "status",
+      "patterns": ["status", "nikah", "cerai"],
+      "responses": "melakukan perubahan data atau memperbarui data mereka agar sesuai dengan status perkawinan mereka."
+    },
+    {
+      "tags": "ktps",
+      "patterns": ["ktp sementara"],
+      "responses": "Surat keterangan KTP sementara perlu dimiliki apabila Anda belum memiliki KTP yang tercetak"
+    },
+    {
+      "tags": "pendaftaran3",
+      "patterns": ["anggota keluarga"],
+      "responses": "Anda dapat mendaftarkan anggota keluarga dalam satu waktu saat mengurus administrasi kependudukan seperti Kartu Tanda Penduduk (KTP) atau E-KTP di kantor Dinas Kependudukan dan Pencatatan Sipil (Disdukcapil). Proses ini memungkinkan untuk pengajuan bersama-sama, memudahkan pengurusan administrasi keluarga."
+    },
+    {
+      "tags": "surat",
+      "patterns": [" tidak memiliki surat keterangan pindah"],
+      "responses": "Hubungi langsung kantor Disdukcapil di wilayah Anda dan tanyakan apakah ada alternatif untuk surat keterangan pindah datang. Mereka dapat memberikan petunjuk atau menginformasikan dokumen apa yang dapat diterima sebagai bukti alamat baru."
+    },
+    {
+      "tags": "wakil",
+      "patterns": ["diwakilkan", "tidak bisa hadir"],
+      "responses": "pendaftaran E-KTP (Elektronik Kartu Tanda Penduduk) memerlukan kehadiran langsung pemohon karena melibatkan verifikasi identitas dan pengambilan data biometrik seperti sidik jari dan foto wajah, tetapi jika tidak bisa hadir, konfirmasikan dengan kantor Disdukcapil setempat terlebih dahulu tentang persyaratan khusus atau prosedur yang berlaku untuk pendaftaran melalui wakil."
+    },
+    {
+      "tags": "fitur",
+      "patterns": ["fitur"],
+      "responses": "Memberikan informasi umum tentang E-KTP, Panduan tentang cara mendapatkan atau memperbarui E-KTP, Jawaban terhadap pertanyaan yang sering diajukan terkait E-KTP, Menjaga keamanan informasi pribadi pengguna."
+    }
+  ]
+}
