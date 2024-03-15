@@ -11,4 +11,6 @@ app.use(cookie());
 app.use(express.json());
 app.use(router);
 
-app.listen(4000, () => console.log("Server Running, click to access 4000"));
+const { PORT = 4000 } = process.env;
+
+app.listen(PORT, () => console.log("Server Running, click to access port", PORT));
